@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Model and cache files
+model/dehaze_model.h5
+*.h5
+
+# Uploaded and processed files
+static/uploads/*
+
+# Data folders (if huge datasets)
+data/raw/*
+data/clean/*
+!data/.gitkeep
+
+# Environment files
+.env
+.venv/
