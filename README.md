@@ -27,3 +27,5 @@ A simple web application for single image dehazing using a trained deep learning
 
 - Default model is a simple U-Net. For better results, train with large high-quality data.
 - Clean up `static/uploads/` regularly to save space.
+
+While building. You need to download training images online. Without them, you wouldn't be able to make it. Training images should be a set of hazy and a set of clear images of the same type. The more images you train with. The better..... 
